@@ -1,0 +1,67 @@
+.Header div {
+    float: left;
+}
+
+.Header .First {
+    width: 80%;
+    height: 10vw;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header .Second {
+    width: 10%;
+    height: 10vw;
+}
+
+.Header .First h1 {
+    margin: 0vh;
+    color: white;
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: Brush;
+    -webkit-text-stroke-width: 0.05vw;
+    -webkit-text-stroke-color: rgba(202, 1, 13, 1);
+}
+
+.Header .Second div {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.4vw;
+    margin-top: 3.2vw;
+    margin-right: 2vw;
+    float: right;
+}
+
+.Header .Second div div {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.4vw; 
+    margin: 0.4vw;
+    float: none;
+}
+
+.Header .Second div div:nth-child(n + 2) {
+    position: absolute;
+    margin-top: -1000vh;
+}
+
+.Header .Second div:hover div {
+    position: static;
+    margin-top: 0.4vw;
+}
+
+.Header .Second div:hover div:nth-child(n + 2):hover {
+    background-color: rgba(255, 255, 255, 0.8);
+} 
+
+.Header .Second div div img {   
+    width: 3vw;
+    margin: 0.4vw;
+}
+
+@font-face {
+    font-family: Brush;
+    src: url(../BRUSHSCI.TTF);
+}
