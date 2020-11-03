@@ -17,6 +17,11 @@ body {
     justify-content: center;
 }
 
+.Body .First img {
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
 .Body .Second {
     float: left;
     width: 32%;

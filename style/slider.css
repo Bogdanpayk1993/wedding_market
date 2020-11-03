@@ -1,0 +1,15 @@
+.big_slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 16;
+    margin-top: -1000vw;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.big_slider img {
+    height: 100vh;
+    margin: auto;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+}
