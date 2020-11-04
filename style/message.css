@@ -24,7 +24,7 @@
 }
 
 .message_about_send_request div p {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .message_about_send_request div button {
@@ -48,4 +48,23 @@
 
 .message_about_send_request div button:focus {
     outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .message_about_send_request div h3 {
+        font-size: 4.8vw;
+    }
+    
+    .message_about_send_request div p {
+        font-size: 2.88vw;
+    }
+    
+    .message_about_send_request div button {
+        width: 50%;
+        margin-bottom: 0px;
+        font-size: 2.88vw;
+        font-weight: bold;
+        background-color: rgba(103, 58, 183, 0.1);
+        border: 1px solid rgba(103, 58, 183, 0.1);
+    }
 }
