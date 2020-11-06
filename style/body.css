@@ -76,16 +76,23 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.Body .Second div .Contacts .Work_schedule div:nth-child(odd) {
+.Body .Second div .Contacts .Work_schedule div:nth-child(1) {
     display: table-cell;
-    width: 45%;
+    width: 30%;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.Body .Second div .Contacts .Work_schedule div:nth-child(even) {
+.Body .Second div .Contacts .Work_schedule div:nth-child(2) {
     display: table-cell;
-    width: 10%;
+    width: 2%;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Body .Second div .Contacts .Work_schedule div:nth-child(3) {
+    display: table-cell;
+    width: 68%;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
